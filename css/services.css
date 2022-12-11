@@ -1,0 +1,112 @@
+body{
+    background-color: #ffffff;
+}
+ul {
+    list-style-type: none;
+    margin-left: 20vw;
+    overflow: hidden;
+    background-color: white;
+    size: 100vw;
+}
+
+li {
+    float:left;
+    margin-right: 7vw;
+}
+
+li a {
+    display: block;
+    color: #000000;
+    font-size: 100%;
+    font-family: "Arial Hebrew";
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgba(74, 204, 7, 0.87);
+    padding: 12px 16px;
+    border-radius: 2px;
+    width: 100%;
+}
+
+.active {
+    background-color: rgba(74, 204, 7, 0.87);
+    padding: 12px 16px;
+    border-radius: 2px;
+    width: 100%;
+}
+
+
+hr{
+    width:70%;
+    border: 1px solid #79da02;
+    size: 15vw;
+    align-items: center;
+    margin-top: 3vw;
+}
+
+h1{
+    font-family: cursive;
+    font-size: 2vw;
+    float: left;
+}
+
+.section{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 90%;
+    margin: 10rem auto 0 auto;
+}
+
+.section img{
+    height: 40vh;
+    border-radius: 10%;
+
+}
+
+.section h1{
+    color: #000000;
+    margin: 0;
+    padding-left: 3%;
+    font-family: cursive;
+    font-size: 160%;
+}
+
+.section p{
+    color: #0c0606;
+    padding: 3%;
+    font-size: 120%;
+
+}
+
+.second-section{
+    background-color: #fdfdfd;
+    display: flex;
+    padding: 40px;
+    width: 80%;
+    margin: 10rem auto 0 auto;
+}
+
+.second-section img{
+    height: 40vh;
+    border-radius: 10%;
+}
+
+.second-section h1{
+    color: #000000;
+    margin: 0;
+    padding-left: 4%;
+    font-family: Helvetica;
+}
+
+.first-text img{
+    width: 65%;
+    height: 15%;
+    padding-left: 4%;
+}
+
+

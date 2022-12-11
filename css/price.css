@@ -1,0 +1,122 @@
+ul {
+    list-style-type: none;
+    margin-left: 20vw;
+    overflow: hidden;
+    background-color: white;
+    size: 100vw;
+}
+
+li {
+    float:left;
+    margin-right: 7vw;
+}
+
+li a {
+    display: block;
+    color: #000000;
+    font-size: 16px;
+    font-family: "Arial Hebrew";
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgba(74, 204, 7, 0.87);
+    padding: 12px 16px;
+    border-radius: 2px;
+    width: 100%;
+}
+
+.active {
+    background-color: rgba(74, 204, 7, 0.87);
+    padding: 12px 16px;
+    border-radius: 2px;
+    width: 100%;
+}
+
+
+
+
+hr{
+    width:70%;
+    border: 1px solid #79da02;
+    size: 15vw;
+    align-items: center;
+    margin-top: 3vw;
+}
+
+
+ul.priceList {
+    padding: 0px;
+    overflow-x: hidden;
+    list-style: none;
+    font-size: 140%;
+    margin-top: 10%;
+    line-height: 500%;
+    margin-left: 5%;
+
+}
+
+ul.priceList li:before {
+    float: left;
+    width: 0%;
+    white-space: pre;
+    content:
+            ". . . . . . .  . . . . . . . . . . . . . . . . . "
+            ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  "
+            ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  "
+
+}
+
+ul.priceList span:first-child {
+    padding-right: 0.33em;
+    background: white;
+    word-break: break-all;
+
+}
+
+ul.priceList span + span {
+    padding-left: 0.33em;
+    background: white;
+    word-break: break-all;
+    float: right;
+
+}
+
+
+ .column {
+     justify-content:  center ;
+     padding: 5px;
+ }
+
+.column image{
+    width: 10%;
+    height: 10%;
+}
+
+
+li {
+    float:left;
+    margin-right: 7vw;
+}
+
+li a {
+    display: block;
+    color: #000000;
+    font-size: 16px;
+    font-family: "Arial Hebrew";
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+
+h1{
+    font-family: cursive;
+    font-size: 2vw;
+    float: left;
+}
+
+
+
